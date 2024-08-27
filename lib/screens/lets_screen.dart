@@ -1,3 +1,5 @@
+import 'package:car_project/screens/login_page.dart';
+import 'package:car_project/screens/sign_page.dart';
 import 'package:flutter/material.dart';
 
 class LetsScreen extends StatelessWidget {
@@ -25,7 +27,9 @@ class LetsScreen extends StatelessWidget {
               Text("Premium and prestige car daily rental.",style: TextStyle(color:Colors.white,),),
               Text("Experience the thrill at lower price",style: TextStyle(color: Colors.white),),
               SizedBox(height: 55,),
-              ElevatedButton(onPressed: (){}, child: Text("Lets go")),
+              ElevatedButton(onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>LoginPage()));
+              }, child: Text("Lets go")),
              
             ],
            ),

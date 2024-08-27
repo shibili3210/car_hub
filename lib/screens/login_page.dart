@@ -1,3 +1,5 @@
+import 'package:car_project/screens/home_page.dart';
+import 'package:car_project/screens/sign_page.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -39,8 +41,17 @@ class LoginPage extends StatelessWidget {
       ),
     
       SizedBox(height: 60,),
-      ElevatedButton(onPressed:(){}, child: Text("Login")),
+      ElevatedButton(onPressed:(){
+        Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
+      }, child: Text("Login")),
       SizedBox(height: 45,),
+      Row(mainAxisAlignment: MainAxisAlignment.center,
+  children: [Text("Already have an account?",style: TextStyle(color: Colors.white),),
+    TextButton(onPressed: (){
+      Navigator.push(context, MaterialPageRoute(builder: (context)=>SignPage()));
+    }, child:Text("signup",style: TextStyle(color: Colors.red),)),
+  ],
+)
 
 
 

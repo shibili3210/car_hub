@@ -1,3 +1,4 @@
+import 'package:car_project/screens/payment_page.dart';
 import 'package:flutter/material.dart';
 
 class Bookingscreen extends StatefulWidget {
@@ -65,7 +66,7 @@ class CarRentalCard extends StatelessWidget {
                   Text('\$5,000/day', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
                   ElevatedButton(
                     onPressed: () {
-                      // Add booking action
+                       Navigator.push(context, MaterialPageRoute(builder: (context)=>PaymentPage()));
                     },
                     child: Text('Book Now'),
                     style: ElevatedButton.styleFrom(

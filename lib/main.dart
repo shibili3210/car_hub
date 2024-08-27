@@ -1,4 +1,5 @@
 
+import 'package:car_project/screens/driver_page.dart';
 import 'package:car_project/screens/flash_screen.dart';
 import 'package:car_project/screens/hatch_page.dart';
 import 'package:car_project/screens/home_page.dart';
@@ -32,7 +33,10 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ProfilePage()
+      home: PaymentPage()
+      
+      
+
     );
   }
 }

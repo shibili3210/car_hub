@@ -36,8 +36,8 @@ class PaymentPage extends StatelessWidget {
                       Text('Fortuner', style: TextStyle(fontWeight: FontWeight.bold,color:Colors.white
                       ),),
                       Text('DAYS: 2',style: TextStyle(color: Colors.white),),
-                      Text('2972 Westheimer Rd, Santa',style: TextStyle(color: Colors.white),),
-                      Text('Total Amount: ₹18,000',style: TextStyle(color: Colors.white),),
+                      Text('',style: TextStyle(color: Colors.white),),
+                      Text('Total Amount: ₹7000',style: TextStyle(color: Colors.white),),
                     ],
                   ),
                 ],

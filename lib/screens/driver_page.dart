@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
-class sample_ extends StatelessWidget {
-  const sample_({super.key});
+class driver_ extends StatelessWidget {
+  const driver_({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
- 
- backgroundColor:Color.fromRGBO(44, 43, 52, 10),
+backgroundColor:Color.fromRGBO(44, 43, 52, 10),
       appBar: AppBar(
         backgroundColor:Color.fromRGBO(44, 43, 52, 10),
         elevation: 0,
@@ -120,3 +119,4 @@ class RiderCard extends StatelessWidget {
   }
 }
    
+  
