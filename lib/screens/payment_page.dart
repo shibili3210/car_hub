@@ -7,9 +7,9 @@ class PaymentPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Color.fromRGBO(44, 43, 52, 10),
-      appBar: AppBar(
-        title: Text('Payment Options'),
-      ),
+      // appBar: AppBar(
+      //   title: Text('Payment Options'),
+      // ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -36,7 +36,7 @@ class PaymentPage extends StatelessWidget {
                       Text('Fortuner', style: TextStyle(fontWeight: FontWeight.bold,color:Colors.white
                       ),),
                       Text('DAYS: 2',style: TextStyle(color: Colors.white),),
-                      Text('',style: TextStyle(color: Colors.white),),
+                      Text('malappuram ,mankada',style: TextStyle(color: Colors.white),),
                       Text('Total Amount: ₹7000',style: TextStyle(color: Colors.white),),
                     ],
                   ),
@@ -75,7 +75,9 @@ class PaymentPage extends StatelessWidget {
               title: Text('Google Pay',style: TextStyle(color: Colors.white),),
               trailing: Radio(value: 3, groupValue: 0, onChanged: (value) {}),
             ),
+            SizedBox(height: 20,),
             ListTile(
+              
               leading: Image.asset("asset/download (1).png"),
               
               title: Text('PhonePe',style: TextStyle(color: Colors.white),),

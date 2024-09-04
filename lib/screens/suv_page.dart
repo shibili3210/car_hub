@@ -16,6 +16,7 @@ backgroundColor:  Color.fromRGBO(44, 43, 52, 10),
               Text("suv cars",style: TextStyle(color: Colors.yellow,fontSize: 30,fontWeight: FontWeight.bold),),
               SizedBox(height: 20,),
                   Row(mainAxisAlignment: MainAxisAlignment.start,
+                  
                     children: [
                        Column(
                 children: [
